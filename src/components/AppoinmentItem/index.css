@@ -1,0 +1,38 @@
+li{
+    list-style: none;
+    padding-inline-start: 0;
+}
+.appointment-item-component-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #b5b7c4;
+    padding: 10px;
+    min-width: 200px;
+    margin: 20px;
+    max-width: 400px;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.appointment-item-component-button-contanier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.appointment-item-component-button{
+    background-color: transparent;
+    border: transparent;
+}
+
+.bottom-section{
+    display: flex;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    height: 10%;
+}
